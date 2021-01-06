@@ -19,7 +19,7 @@ const JobInfo = (props) => {
                 <p className={cls.textData}>{props.job.info}</p>
             </div>
             <div className={cls.photosWrapper}>
-                <Button text='Photos'/>
+                <Button click={() => {props.setPhotosActive(true)}} text='Photos'/>
             </div>
         </div>
     )

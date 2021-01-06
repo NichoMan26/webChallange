@@ -1,0 +1,20 @@
+.wrapper{
+   left: 0;
+   top:0;
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.863);
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.dev{
+    color: azure;
+    font-size: 30px;
+    margin: 100px 0;
+
+}

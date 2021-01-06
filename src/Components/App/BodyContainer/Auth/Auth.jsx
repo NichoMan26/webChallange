@@ -11,6 +11,9 @@ const Auth = (props) => {
     e.preventDefault()
     props.setName()
   }
+  const setSaveMe = (e) => {
+    props.setSaveMe(e.currentTarget.checked)
+  }
   
   return (
     <div className={cls.wrapper}>
@@ -33,7 +36,7 @@ const Auth = (props) => {
           <label htmlFor="remember">
             remember me
           </label>
-          <input id='remember' type="checkbox" />
+          <input id='remember' onChange={setSaveMe} type="checkbox" />
         </div>
         <div className={cls.inputWrapper}>
           <button onClick={setName} 

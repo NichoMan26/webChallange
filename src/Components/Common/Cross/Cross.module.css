@@ -1,0 +1,26 @@
+.wrapper{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.line{
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    background-color: azure;
+    transform: rotate(45deg);
+}
+.line2{
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    background-color: azure;
+    transform: rotate(-45deg);
+}

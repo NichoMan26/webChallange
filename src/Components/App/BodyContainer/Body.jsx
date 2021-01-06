@@ -20,11 +20,20 @@ const Body = (props) => {
                                  setName={props.setName}
                                  updateName={props.updateName}
                                  updatePass={props.updatePass}
+                                 setSaveMe={props.setSaveMe}
                                  />
                 }
                 return <Main jobs={props.jobs.jobs}/>}
             }/>
             <Route path='/job/:id' render={() => {
+                if(props.app.name.toLowerCase() !== 'user'){ //if not auth redirect on authPage
+                    return <Auth app={props.app} 
+                                 setName={props.setName}
+                                 updateName={props.updateName}
+                                 updatePass={props.updatePass}
+                                 setSaveMe={props.setSaveMe}
+                                 />
+                }
                 return <SingleJob updateNewMessage={props.updateNewMessage}  
                                   addNewMessage={props.addNewMessage}
                                   jobs={props.jobs} 

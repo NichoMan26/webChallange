@@ -1,6 +1,6 @@
 import {connect} from 'react-redux'
 import Body from './Body'
-import { setName, updateName, updatePass} from '../../../redux/appReducer'
+import { setName, updateName, updatePass, setSaveMe} from '../../../redux/appReducer'
 import { updateNewMessage, addNewMessage} from '../../../redux/jobsReducer'
 
 let mapStateToProps = (state) => {
@@ -25,6 +25,9 @@ let mapDispatchToProps = (dispatch) => {
         },
         addNewMessage:(id) => {
             dispatch(addNewMessage(id));
+        },
+        setSaveMe:(saveMe) => {
+            dispatch(setSaveMe(saveMe));
         },
         
     }

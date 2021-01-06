@@ -5,7 +5,7 @@ import cls from './Row.module.css'
 const Row = ({job}) => {
       
     const OpenWindow = () => {
-        window.open(`http://localhost:3000/job/${job.id}`,'','')
+        window.open(`https://web-challange/job/${job.id}`,'','')
     }
     return (
         <div className={job.id % 2 === 0 ? cls.row : cls.row2}>

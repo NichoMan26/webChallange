@@ -2,6 +2,8 @@ const UPDATE_NEW_MESSAGE = 'UPDATE_NEW_MESSAGE'
 const ADD_NEW_MESSAGE = 'ADD_NEW_MESSAGE'
 
 ///////********************/////////////
+
+
 let initState = {
     newMessage:'',
     jobs:[
@@ -21,7 +23,7 @@ const jobsReducer = (state = initState, action) => {
         case UPDATE_NEW_MESSAGE:// init state
             return {...state, newMessage:action.newMessage}
 
-            
+
         case ADD_NEW_MESSAGE:// init state
         let arr = state.jobs.map((obj,idx) => {
             if(obj.id === action.id){
