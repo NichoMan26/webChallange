@@ -1,0 +1,24 @@
+.row{
+    background-color: #adadff;
+    display: grid;
+    grid-template-columns:1fr 100px 100px 100px 100px 100px 100px
+}
+.row2{
+    background-color: azure;
+    display: grid;
+    grid-template-columns:1fr 100px 100px 100px 100px 100px 100px
+}
+.sell{
+    word-wrap:break-word;
+    border-right: 1px solid  #6060f7;
+    padding: 2px;
+
+}
+.sell:nth-child(7){
+    border-right: none
+}
+.sell:hover{
+    cursor: pointer;
+   background-color: #6060f7;
+   color: azure;
+}

@@ -1,0 +1,11 @@
+.wrapper{
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.bodyWrapper{
+    display: grid;
+    grid-template-columns:1fr 400px ;
+    border: 1px solid #6060f7;
+}

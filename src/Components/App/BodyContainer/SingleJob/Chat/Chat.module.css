@@ -1,0 +1,35 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}.authtor{
+    color: azure;
+    
+}
+.authorWrapper{
+    padding: 5px;
+    background-color: #6060f7;
+    display: flex;
+    justify-content: space-between;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.inputWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 100%;
+    border: none;
+    border-top: 1px solid  #6060f7;
+    padding: 0 5px;
+}
+.button{
+    background-color: #6060f7;
+    color:azure;
+    border: 1px solid transparent;
+    border-radius: none;
+    padding: 5px;
+}

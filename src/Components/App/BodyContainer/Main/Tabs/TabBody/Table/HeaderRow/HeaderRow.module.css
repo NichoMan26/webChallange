@@ -1,0 +1,7 @@
+.wrapper{
+    display: grid;
+    background-color: #6060f7;
+    color:azure;
+    padding: 5px 0;
+    grid-template-columns:1fr 100px 100px 100px 100px 100px 100px
+}

@@ -1,0 +1,17 @@
+.wrapper{
+    background-color: #6060f7;
+    color: azure;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    text-align: center;
+}
+.wrapper:hover{
+    background-color: azure;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #6060f7;
+    color: #6060f7;
+    cursor: pointer;
+}

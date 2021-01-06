@@ -1,0 +1,23 @@
+.wrapper{
+    border-left: 1px solid #6060f7;
+    padding: 5px;
+}
+.text{
+    color: #6060f7;
+    font-weight: 400;
+    font-size: 20px;
+    min-width: 60px;
+}
+.textwrapper{
+    display: flex;
+    padding: 5px 0;
+    align-items: flex-start;
+    border-bottom: 1px solid#6060f7;
+}
+.textData{
+    font-size: 20px;
+}
+.photosWrapper{
+    max-width: 100px;
+    padding: 5px;
+}

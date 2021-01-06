@@ -1,6 +1,9 @@
 .wrapper{
-    background-color: azure;
     border: 1px solid #6060f7;
+    border-top:none;
     margin: 0 5px;
     padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+
 }
